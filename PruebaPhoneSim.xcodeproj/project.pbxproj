@@ -14,6 +14,8 @@
 		30A94AA51B82444D007CA69C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30A94AA41B82444D007CA69C /* Images.xcassets */; };
 		30A94AA81B82444D007CA69C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30A94AA61B82444D007CA69C /* LaunchScreen.xib */; };
 		30A94AB41B82444D007CA69C /* PruebaPhoneSimTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A94AB31B82444D007CA69C /* PruebaPhoneSimTests.m */; };
+		30A94ABE1B8247D5007CA69C /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A94ABD1B8247D5007CA69C /* CoreTelephony.framework */; };
+		30A94AC11B824F04007CA69C /* Telefono.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A94AC01B824F04007CA69C /* Telefono.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		30A94AAD1B82444D007CA69C /* PruebaPhoneSimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PruebaPhoneSimTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30A94AB21B82444D007CA69C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30A94AB31B82444D007CA69C /* PruebaPhoneSimTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PruebaPhoneSimTests.m; sourceTree = "<group>"; };
+		30A94ABD1B8247D5007CA69C /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		30A94ABF1B824F04007CA69C /* Telefono.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Telefono.h; sourceTree = "<group>"; };
+		30A94AC01B824F04007CA69C /* Telefono.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Telefono.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30A94ABE1B8247D5007CA69C /* CoreTelephony.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +69,7 @@
 		30A94A8B1B82444C007CA69C = {
 			isa = PBXGroup;
 			children = (
+				30A94ABD1B8247D5007CA69C /* CoreTelephony.framework */,
 				30A94A961B82444C007CA69C /* PruebaPhoneSim */,
 				30A94AB01B82444D007CA69C /* PruebaPhoneSimTests */,
 				30A94A951B82444C007CA69C /* Products */,
@@ -85,6 +92,8 @@
 				30A94A9C1B82444C007CA69C /* AppDelegate.m */,
 				30A94A9E1B82444C007CA69C /* ViewController.h */,
 				30A94A9F1B82444C007CA69C /* ViewController.m */,
+				30A94ABF1B824F04007CA69C /* Telefono.h */,
+				30A94AC01B824F04007CA69C /* Telefono.m */,
 				30A94AA11B82444D007CA69C /* Main.storyboard */,
 				30A94AA41B82444D007CA69C /* Images.xcassets */,
 				30A94AA61B82444D007CA69C /* LaunchScreen.xib */,
@@ -220,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				30A94AA01B82444C007CA69C /* ViewController.m in Sources */,
+				30A94AC11B824F04007CA69C /* Telefono.m in Sources */,
 				30A94A9D1B82444C007CA69C /* AppDelegate.m in Sources */,
 				30A94A9A1B82444C007CA69C /* main.m in Sources */,
 			);
